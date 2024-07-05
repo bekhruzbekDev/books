@@ -1,0 +1,87 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 105px;
+}
+.header {
+  padding-top: 10px;
+}
+.input {
+  border: 0px solid #e3e6eb;
+  padding: 15px 16px;
+  border-radius: 30px;
+  width: 670px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+  background: #f8fafd;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.input > input {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+.input > input::placeholder {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.24);
+}
+.box {
+  display: flex;
+  gap: 56px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.button {
+  border-radius: 4px;
+  width: 99px;
+  height: 40px;
+  background: #0d75ff;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  margin: 0;
+}
+.summer {
+  cursor: pointer;
+}
+.calendar {
+  padding: 0 24px;
+  padding-top: 10px;
+}
+.calendar-container {
+  border-bottom: 1px solid #e3e6eb;
+  border-top: 1px solid#e3e6eb;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  align-items: center;
+}
+.calendar-btn {
+  border-radius: 4px;
+  width: 165px;
+  height: 34px;
+  background: #a6b0c3;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+  }
+}
+.calendar-title {
+  margin-left: 300px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  color: #222531;
+}

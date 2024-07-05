@@ -1,0 +1,26 @@
+.bookmark-container {
+  border: 0px solid #e3e6eb;
+  width: 268px;
+  height: 100%;
+  min-height: calc(100vh - 1px);
+  box-shadow: 0 3px 2px 0 rgba(0, 0, 0, 0.1);
+  background: #fff;
+  padding: 25px;
+  p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 156%;
+    color: #000;
+    text-align: start;
+  }
+}
+.bookmark-title {
+  font-weight: 400;
+  font-size: 24px;
+  color: #000;
+  margin-bottom: 5px;
+}
+.products{
+  height: 100%;
+  min-height: 780px; 
+}

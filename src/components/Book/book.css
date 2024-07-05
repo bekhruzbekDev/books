@@ -1,0 +1,72 @@
+.book-container {
+  border: 0px solid #e3e6eb;
+  border-radius: 5px;
+  width: 282px;
+  height: 431px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  background: #fff;
+  padding: 13px 15px 13px 18px;
+}
+.photo {
+  border-radius: 5px;
+  height: 238px;
+  background: #f8fafd;
+  padding: 18px 28px 18px 20px;
+  margin-bottom: 20px;
+  img {
+    border-radius: 5px;
+    width: 201px;
+    height: 202px;
+  }
+}
+.book-title{
+  overflow: hidden;
+  height: 20px;
+}
+.book-title> h2 {
+  font-weight: 500;
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 5px;
+}
+.book-info > p {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  color: #757881;
+  text-align: start;
+  margin-bottom: 3px;
+}
+.btns {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+.bookmark {
+  border-radius: 4px;
+  width: 120px;
+  height: 37px;
+  background: #ffd80d;
+  font-weight: 500;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+}
+.info {
+  border-radius: 4px;
+  width: 120px;
+  height: 37px;
+  background: rgba(13, 117, 255, 0.05);
+  margin: 0;
+}
+.read {
+  border-radius: 4px;
+  width: 246px;
+  height: 37px;
+  background: #75828a;
+  font-weight: 500;
+  font-size: 14px;
+  color: #fff;
+margin: 0;
+}
