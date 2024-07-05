@@ -13,7 +13,6 @@ export const BookProduct = ({
     let arr = bookMark.filter((itm) => itm.volumeInfo.title != title);
     setBookMark(arr);
   }
-
   return (
     <div className="product-container">
       <div className="product-info">

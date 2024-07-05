@@ -16,13 +16,12 @@ padding: 0;
     justify-content: center;
 }
 .next-btns{
-    border: 1px solid;
-    min-width: 272px;
     width: 100%;
+    width: 372px;
     margin: 0 auto;
     display: flex;
     gap: 8px;
     margin-bottom: 40px;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
 }

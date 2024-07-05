@@ -6,7 +6,6 @@ import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { Loading } from "../../components/Loading/Loading";
-
 export function Login() {
 const [isActive,setIsActive] =useState(false)
   const { register, handleSubmit } = useForm();
@@ -43,6 +42,7 @@ const [isActive,setIsActive] =useState(false)
             placeholder="USERNAME"
             // className={isActive?"errorInput":""}
             {...register("email", { required: true })}
+            value={"eve.holt@reqres.in"}
           />
         </div>
         <div className="login-input">
